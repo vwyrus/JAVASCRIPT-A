@@ -139,3 +139,14 @@ let score = '100';
 let result = Boolean('')
 
 console.log(result, typeof result);
+
+const a = { a: 1, b: 2 };
+const b = { a: 2, c: 3 };
+
+// const mergedObject = {};
+// Object.assign(mergedObject, a, b);
+
+const mergedObject = (Object.assign({}, a, b));
+
+
+console.log(mergedObject);
