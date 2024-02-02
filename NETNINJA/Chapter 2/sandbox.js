@@ -36,3 +36,20 @@ const names = ['shaun', 'mario', 'luigi'];
 // while (i < 5)
 
 //if statements
+
+const age = 20;
+
+// if(age > 20){
+//   console.log('you are over 20 years old');
+// }
+// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi',];
+
+const password = '@8dshs';
+
+if (password.length >= 12 && password.includes('@')) {
+  console.log('that password is might strong')
+} else if (password.length >= 8 || password.includes('@') && password.length > 5) {
+  console.log('that password is long enough')
+} else {
+  console.log('password is not long enough')
+}
