@@ -15,3 +15,6 @@
 // console.log(errors);
 
 // get elements by tag name 
+const paras = document.getElementsByTagName('p');
+console.log(paras);
+console.log(paras[1]);
